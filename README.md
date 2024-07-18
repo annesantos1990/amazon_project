@@ -1,8 +1,20 @@
-<h1 align="center">
+
+<div style="display: flex; align-items: center; justify-content: center;">
   <a href="https://amazon-clone-martstech.vercel.app/">
-      <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo"  width="25" height="30" />   </a>    Amazon Data Analysis </h1>
+    <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo" />
+  </a>
+  <h1 style="margin-left: 20px;">Amazon Data Analysis</h1>
+</div>
+
+<h1 style="display: flex; align-items: center;">
+  <a href="https://amazon-clone-martstech.vercel.app/" style="flex-shrink: 0;">
+    <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo" />
+  </a>
+  Amazon Data Analysis </h1>
+
 
 Este projeto foi desenvolvido para analisar as avaliações de produtos vendidos na Amazon, buscando entender como diferentes fatores influenciam a percepção dos clientes. O objetivo é fornecer insights acionáveis para melhorar estratégias de marketing, qualidade dos produtos e a experiência geral dos consumidores.
+
 
 ### Problema
 
