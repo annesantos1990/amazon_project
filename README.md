@@ -1,25 +1,21 @@
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <a href="https://amazon-clone-martstech.vercel.app/">
-    <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo" />
-  </a>
-  <h1 style="margin-left: 20px;">Amazon Data Analysis</h1>
-</div>
+<h1 style="display: flex; align-items: center;">  Amazon Data Analysis </h1>
 
-<h1 style="display: flex; align-items: center;">
-  <a href="https://amazon-clone-martstech.vercel.app/" style="flex-shrink: 0;">
-    <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo" />
-  </a>
-  Amazon Data Analysis </h1>
+**Time responsável pelo projeto**: Maiully Mendoça e Eslaine Santos
+##
 
+<p align="center">
+ 
+[Caso](#caso)  •  [Principais Hipóteses](#principais-hipóteses)  •  [Objetivo](#objetivo)  •  [Ferramentas](#ferramentas)   •  [Resultados e Discussão](#resultados-e-discussão)  •  [Conclusões](#conclusões)  •  [Recomendações](#recomendações)  •  [Venha nos conhecer!](#venha-nos-conhecer)
+
+</p>
 
 Este projeto foi desenvolvido para analisar as avaliações de produtos vendidos na Amazon, buscando entender como diferentes fatores influenciam a percepção dos clientes. O objetivo é fornecer insights acionáveis para melhorar estratégias de marketing, qualidade dos produtos e a experiência geral dos consumidores.
 
 
-### Problema
+### Caso
 
-O principal problema que este projeto busca resolver é entender os fatores que influenciam as avaliações dos clientes nos produtos vendidos na Amazon.
-As empresas precisam compreender como variáveis como descontos, preços, número de avaliações e categorias de produtos afetam a percepção dos consumidores para otimizar suas estratégias de marketing, aprimorar a qualidade dos produtos e melhorar a experiência do cliente. 
+Este projeto busca entender os fatores que influenciam as avaliações dos clientes nos produtos vendidos na Amazon. As empresas precisam compreender como variáveis como descontos, preços, número de avaliações e categorias de produtos afetam a percepção dos consumidores para otimizar suas estratégias de marketing, aprimorar a qualidade dos produtos e melhorar a experiência do cliente. 
 
 Além disso, identificar padrões de sentimento nas avaliações dos clientes pode ajudar a detectar problemas específicos e oportunidades de melhoria.
 
@@ -34,16 +30,30 @@ O objetivo deste projeto é analisar as avaliações de produtos da Amazon para 
 3. **Quanto maior o número de pessoas que avaliaram o produto, melhor será a classificação?**
 4. **Quais categorias de produtos possuem melhores avaliações e mais compras?**
 5. **Quais são as categorias mais bem avaliadas?**
+6. **Qual o principal conteúdo das avaliações baixas e altas?**
 
 ### **Metodologia**
 
 - **Tratamento e Limpeza dos Dados**
 - **Análise Estatística**: Aplicação de testes de hipóteses, análise de correlação e regressão linear para identificar relações entre variáveis.
-- **Análise de Sentimentos**: Uso de técnicas de Processamento de Linguagem Natural (NLP) para analisar sentimentos expressos nas avaliações dos clientes.
-- **Análise de Bigramas e Trigramas**: Identificação de pares e trios de palavras frequentes em avaliações para entender melhor o contexto e as principais reclamações dos clientes.
+- **Natural Language Processing para Análise de Sentimentos das Avaliações**: Uso de técnicas de Processamento de Linguagem Natural (NLP) para analisar sentimentos expressos nas avaliações dos clientes, assim como a identificação de palavras (unigramas), assim como pares (bigramas) e trios (trigramas) de palavras frequentes em avaliações para entender melhor o contexto e as principais reclamações dos clientes.
+
+### Ferramentas
+
+- Google Colab (Python) - Tratamento, limpeza, análise e visualização
+- Power Bi - Visualização
+
+#### Tratamento do Dados e Análises
+
+#### Visualização dos dados - Colab e PowerBi
+
+### Apresentação do projeto
 
 
-### Resultados
+### Resultados e Discussão
+A análise detalhada desse projeto com os gráficos e discussões pode ser vista em nossa página pública do [Notion], assim como no notebook do [Google Colab]. 
+
+Mas aqui, vou fazer um resumo dos principais resultados encontrados:
 
 - **Descontos e Avaliações**: Não há uma forte relação entre a porcentagem de desconto e a avaliação dos produtos. Embora tenha sido encontrada uma diferença significativa nas médias das avaliações entre produtos com altos e baixos descontos, produtos com baixos descontos tiveram, em média, avaliações ligeiramente melhores.
 - **Preços e Avaliações**: Produtos mais caros não tendem a receber melhores avaliações. A análise de correlação e o teste de Mann-Whitney demonstraram uma fraca relação positiva e nenhuma diferença significativa entre os preços dos produtos que receberam avaliações altas e baixas.
@@ -91,3 +101,12 @@ O objetivo deste projeto é analisar as avaliações de produtos da Amazon para 
 - **Análise Demográfica**: Examinar padrões de avaliação de diferentes grupos demográficos.
 - **Benchmarking com Concorrentes**: Comparar as avaliações com as de produtos concorrentes para identificar pontos fortes e áreas de melhoria.
 
+## Venha nos conhecer!
+
+Quer saber mais sobre as autoras desse projeto? Acesse o nosso LinkedIn:
+
+https://www.linkedin.com/in/maiully-data-analyst/
+
+https://www.linkedin.com/in/eslaine-santos-e-santos-46159a28/
+
+Obrigada por sua atenção!
