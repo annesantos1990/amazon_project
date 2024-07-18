@@ -1,4 +1,6 @@
-# amazon_project
+<h1 align="center">
+  <a href="https://amazon-clone-martstech.vercel.app/">
+      <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png" alt="Amazon Logo"  width="25" height="30" />   </a>    Amazon Data Analysis </h1>
 
 Este projeto foi desenvolvido para analisar as avaliações de produtos vendidos na Amazon, buscando entender como diferentes fatores influenciam a percepção dos clientes. O objetivo é fornecer insights acionáveis para melhorar estratégias de marketing, qualidade dos produtos e a experiência geral dos consumidores.
 
