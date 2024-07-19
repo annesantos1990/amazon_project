@@ -107,6 +107,6 @@ Quer saber mais sobre as autoras desse projeto? Acesse o nosso LinkedIn:
 
 https://www.linkedin.com/in/maiully-data-analyst/
 
-https://www.linkedin.com/in/eslaine-santos-e-santos-46159a28/
+https://www.linkedin.com/in/eslaine-santos/
 
 Obrigada por sua atenção!
