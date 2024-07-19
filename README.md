@@ -51,7 +51,8 @@ O objetivo deste projeto é analisar as avaliações de produtos da Amazon para 
 
 
 ### Resultados e Discussão
-A análise detalhada desse projeto com os gráficos e discussões pode ser vista em nossa página pública do [Notion], assim como no notebook do [Google Colab]. 
+
+A análise detalhada desse projeto com os gráficos e discussões pode ser vista em nossa página pública do [Notion], assim como no notebook do [Google Colab].
 
 Mas aqui, vou fazer um resumo dos principais resultados encontrados:
 
@@ -60,27 +61,34 @@ Mas aqui, vou fazer um resumo dos principais resultados encontrados:
 - **Número de Avaliações e Qualidade**: Não há correlação entre o número de pessoas que avaliaram um produto e a qualidade da avaliação. A análise de correlação indicou uma fraca relação positiva, refutando a hipótese inicial.
 - **Categorias de Produtos**: Entre as categorias com maior quantidade de compras, "Computers&Accessories" apresentou a maior mediana e a maior porcentagem de avaliações altas. "Office Products" também se destacou, mas com menos avaliações.
 - **Análise de Sentimentos - NLP**:
-    - **Análise de Sentimentos dos Títulos**: A maioria das avaliações dos títulos foram positivas (1432), em comparação com negativas (21) e neutras (6).
-    - **Análise dos Unigramas Negativos - Títulos**:
-        - **Qualidade do Produto**: Termos como "good", "quality", "bad", "poor" indicam preocupações com a durabilidade e desempenho dos produtos.
-        - **Preço**: Termos como "price" e "money" sugerem insatisfação com o custo-benefício.
-        - **Funcionalidade**: Termos como "working", "features", "battery", "damaged", "works" apontam problemas técnicos.
-        - **Sentimento Negativo**: Termos como "negation" (no, not, never), "fool", "youworst" refletem frustração e insatisfação.
-    - **Análise dos Bigramas Negativos - Títulos**: Principais bigramas incluem "good quality", "negation working", "negation smart", "smart one", "one features", "features make", "make fool", "fool youworst", "youworst watch", destacando reclamações sobre funcionalidade e qualidade.
-    - **Análise dos Trigramas Negativos - Títulos**: Principais trigramas incluem "watch negation smart", "negation smart one", "smart one features", "one features make", "features make fool", "make fool youworst", "fool youworst watch", "youworst watch connecting", "watch connecting problem", "connecting problem phone", continuando a destacar problemas com smartwatches.
-    - **Análise de Sentimentos do Conteúdo das Avaliações**: A maioria das avaliações de conteúdo foram positivas (1423), em comparação com negativas (27) e neutras (9).
-    - **Análise dos Unigramas Negativos - Conteúdo das Avaliações**:
-        - **Problemas de Funcionamento**: Termos como "negation", "product", "using", "working", "cable", "battery", "money" indicam problemas técnicos e questões financeiras.
-        - **Qualidade do Produto e Experiência dos Usuários**: Termos como "product", "quality", "got", "good", "bit", "water", "days", "like" focam na qualidade e experiência do usuário.
-        - **Desempenho**: Termos como "unit", "working", "item", "service" indicam discussões sobre desempenho.
-        - **Qualidade do Produto**: Termos como "use", "poor", "quality", "charging", "cable", "handle" indicam questões de uso e qualidade, especialmente em relação ao carregamento e manuseio.
-        - **Compra, Serviço e Instalação**: Termos como "buy", "bad", "service", "come", "install", "provider", "stand", "pay" destacam problemas de compra, serviço e instalação.
-    - **Análise dos Bigramas Negativos - Conteúdo das Avaliações**: Principais bigramas incluem "negative come", "product come", "quality poor", "bad service", "installation guy", "good product", "google tv", "charging cable", "fast charging", indicando problemas de entrega, qualidade e serviço.
-    - **Análise dos Trigramas - Conteúdo das Avaliações**: Principais trigramas incluem "câmera display poor", "display poor quality", "poor quality batery", "quality batery good", "batery good nothing", "good nothing badnice", "nothing badnice phone", "badnice phone reasonable", "phone reasonable pricegoodnicevalue", "reasonable pricegoodnicevalue moneytheek", reforçando reclamações sobre a qualidade dos produtos.
+    - **Análise de Sentimentos dos Títulos**:
+        
+        A maioria das avaliações dos títulos foram positivas (1432), em comparação com negativas (21) e neutras (6).
+        
+        - **Análise dos Unigramas Negativos - Títulos**:
+            - **Qualidade do Produto**: Termos como "good", "quality", "bad", "poor" indicam preocupações com a durabilidade e desempenho dos produtos.
+            - **Preço**: Termos como "price" e "money" sugerem insatisfação com o custo-benefício.
+            - **Funcionalidade**: Termos como "working", "features", "battery", "damaged", "works" apontam problemas técnicos.
+            - **Sentimento Negativo**: Termos como "negation" (no, not, never), "fool", "youworst" refletem frustração e insatisfação.
+        - **Análise dos Bigramas Negativos - Títulos**: Principais bigramas incluem "good quality", "negation working", "negation smart", "smart one", "one features", "features make", "make fool", "fool youworst", "youworst watch", destacando reclamações sobre funcionalidade e qualidade.
+        - **Análise dos Trigramas Negativos - Títulos**: Principais trigramas incluem "watch negation smart", "negation smart one", "smart one features", "one features make", "features make fool", "make fool youworst", "fool youworst watch", "youworst watch connecting", "watch connecting problem", "connecting problem phone", continuando a destacar problemas com smartwatches.
+    - **Análise de Sentimentos do Conteúdo das Avaliações**:
+        
+        A maioria das avaliações de conteúdo foram positivas (1423), em comparação com negativas (27) e neutras (9).
+        
+        - **Análise dos Unigramas Negativos - Conteúdo das Avaliações**:
+            - **Problemas de Funcionamento**: Termos como "negation", "product", "using", "working", "cable", "battery", "money" indicam problemas técnicos e questões financeiras.
+            - **Qualidade do Produto e Experiência dos Usuários**: Termos como "product", "quality", "got", "good", "bit", "water", "days", "like" focam na qualidade e experiência do usuário.
+            - **Desempenho**: Termos como "unit", "working", "item", "service" indicam discussões sobre desempenho.
+            - **Qualidade do Produto**: Termos como "use", "poor", "quality", "charging", "cable", "handle" indicam questões de uso e qualidade, especialmente em relação ao carregamento e manuseio.
+            - **Compra, Serviço e Instalação**: Termos como "buy", "bad", "service", "come", "install", "provider", "stand", "pay" destacam problemas de compra, serviço e instalação.
+        - **Análise dos Bigramas Negativos - Conteúdo das Avaliações**: Principais bigramas incluem "negative come", "product come", "quality poor", "bad service", "installation guy", "good product", "google tv", "charging cable", "fast charging", indicando problemas de entrega, qualidade e serviço.
+        - **Análise dos Trigramas - Conteúdo das Avaliações**: Principais trigramas incluem "câmera display poor", "display poor quality", "poor quality batery", "quality batery good", "batery good nothing", "good nothing badnice", "nothing badnice phone", "badnice phone reasonable", "phone reasonable pricegoodnicevalue", "reasonable pricegoodnicevalue moneytheek", reforçando reclamações sobre a qualidade dos produtos.
 
 ### **Considerações Finais**
 
 - **Insights Gerais**: Descontos, preços e número de avaliações não são determinantes para melhores avaliações.
+- **Natural Language Processing** - A maioria das avaliações tinham no título e em seu  conteúdo avaliações classificadas como positivas.
 - **Análise de Sentimentos**: Identificação de problemas específicos pode orientar melhorias nos processos de entrega, qualidade do produto e serviços oferecidos.
 
 ### **Recomendações**
