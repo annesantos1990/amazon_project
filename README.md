@@ -6,7 +6,7 @@
 
 <p align="center">
  
-[Caso](#caso)  •  [Principais Hipóteses](#principais-hipóteses)  •  [Objetivo](#objetivo)  •  [Ferramentas](#ferramentas)   •  [Resultados e Discussão](#resultados-e-discussão)  •  [Conclusões](#conclusões)  •  [Recomendações](#recomendações)  •  [Venha nos conhecer!](#venha-nos-conhecer)
+[Caso](#caso)  •  [Principais Perguntas](#principais-perguntas)  •  [Objetivo](#objetivo)  •  [Ferramentas](#ferramentas)   •  [Resultados e Discussão](#resultados-e-discussão)  •  [Conclusões](#conclusões)  •  [Recomendações](#recomendações)  •  [Venha nos conhecer!](#venha-nos-conhecer)
 
 </p>
 
@@ -23,7 +23,7 @@ Além disso, identificar padrões de sentimento nas avaliações dos clientes po
 
 O objetivo deste projeto é analisar as avaliações de produtos da Amazon para entender melhor os fatores que influenciam a satisfação do cliente e fornecer insights valiosos para a tomada de decisões estratégicas. A análise abrange diversas questões, desde a relação entre descontos e avaliações até a identificação de padrões de sentimento nas avaliações dos clientes.
 
-### **Perguntas de Pesquisa**
+### **Principais Perguntas**
 
 1. **Produtos com maior desconto tendem a receber melhores avaliações?**
 2. **Produtos mais caros tendem a receber melhores avaliações?**
@@ -43,16 +43,24 @@ O objetivo deste projeto é analisar as avaliações de produtos da Amazon para 
 - Google Colab (Python) - Tratamento, limpeza, análise e visualização
 - Power Bi - Visualização
 
-#### Tratamento do Dados e Análises
+#### Tratamento dos Dados e Análises
+Todo tratamento e Análise dos dados foram feitos no Google Colab. Para mais detalhes de todo processo, basta clicar a seguir: [Tratamento e Análises](https://github.com/annesantos1990/amazon_project/blob/main/Tratamento%20e%20An%C3%A1lise.ipynb)
 
 #### Visualização dos dados - Colab e PowerBi
+Todas as visualiações foram feitas tanto no Google Colab quanto pelo Power Bi. Clique nos links abaixo e também na imagem para acessar:
+* [Google Colab](https://github.com/annesantos1990/amazon_project/blob/main/Tratamento%20e%20An%C3%A1lise.ipynb)
+* [Power Bi](https://app.powerbi.com/view?r=eyJrIjoiMTRjYTA1ZGMtNDMxMS00MmU0LWEzYjEtYzhmODYzYmRlYWMyIiwidCI6ImUwZjY3ODE5LTJmNmYtNDg0Mi1hZjVlLTA5ZjI4Y2U4N2U0NyJ9&pageName=6310dbc2a0723055404b)
+
+[![Imagem1](https://github.com/user-attachments/assets/f720e202-d5b7-4e4c-8675-5b8b3ebd6888)](https://app.powerbi.com/view?r=eyJrIjoiMTRjYTA1ZGMtNDMxMS00MmU0LWEzYjEtYzhmODYzYmRlYWMyIiwidCI6ImUwZjY3ODE5LTJmNmYtNDg0Mi1hZjVlLTA5ZjI4Y2U4N2U0NyJ9&pageName=6310dbc2a0723055404b)
+
+
 
 ### Apresentação do projeto
 
 
 ### Resultados e Discussão
 
-A análise detalhada desse projeto com os gráficos e discussões pode ser vista em nossa página pública do [Notion], assim como no notebook do [Google Colab].
+A análise detalhada desse projeto com os gráficos e discussões pode ser vista em nossa página pública do [Notion](https://crystal-haumea-eb9.notion.site/Ficha-t-cnica-Projeto-4-97b40e872e5c40bdb30923d7d85578d1?pvs=4), assim como no notebook do [Google Colab](https://github.com/annesantos1990/amazon_project/blob/main/Tratamento%20e%20An%C3%A1lise.ipynb).
 
 Mas aqui, vou fazer um resumo dos principais resultados encontrados:
 
@@ -85,7 +93,7 @@ Mas aqui, vou fazer um resumo dos principais resultados encontrados:
         * **Análise dos Bigramas Negativos - Conteúdo das Avaliações**: Principais bigramas incluem "negative come", "product come", "quality poor", "bad service", "installation guy", "good product", "google tv", "charging cable", "fast charging", indicando problemas de entrega, qualidade e serviço.
         * **Análise dos Trigramas - Conteúdo das Avaliações**: Principais trigramas incluem "câmera display poor", "display poor quality", "poor quality batery", "quality batery good", "batery good nothing", "good nothing badnice", "nothing badnice phone", "badnice phone reasonable", "phone reasonable pricegoodnicevalue", "reasonable pricegoodnicevalue moneytheek", reforçando reclamações sobre a qualidade dos produtos.
 
-### **Considerações Finais**
+### **Conclusões**
 
 - **Insights Gerais**: Descontos, preços e número de avaliações não são determinantes para melhores avaliações.
 - **Natural Language Processing** - A maioria das avaliações tinham no título e em seu  conteúdo avaliações classificadas como positivas.
